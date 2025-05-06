@@ -17,6 +17,8 @@ import { AuthProvider } from './contexts/AuthContext';
 import Navbar from './components/Common/Navbar';
 
 function App() {
+    // I'e added comments all over the place, but if you still don't get something, just ask me
+    // - Drei
     return (
         <AuthProvider>
             <Router>
