@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+}
+
+.navbar-brand a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-user {
+  color: #555;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.logout-button:hover {
+  text-decoration: underline;
+}
+
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-overlay p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.appointment-card { border: 1px solid #ccc; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
+.appointment-card.past { background-color: #f8f9fa; border-color: #dee2e6; opacity: 0.7; }
+.appointment-card.upcoming { background-color: #e9f7ef; border-color: #a3e9a4; }
+.appointment-actions button { margin-right: 10px; }
+.cancel-button { background-color: #dc3545; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; }
+.cancel-button:hover { background-color: #c82333; }
+.status-past { font-style: italic; color: #6c757d; }
+
+.time-slots { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.time-slot-button { padding: 8px 12px; border: 1px solid #007bff; background-color: white; color: #007bff; cursor: pointer; border-radius: 4px; }
+.time-slot-button:hover { background-color: #e7f3ff; }
+.time-slot-button.selected { background-color: #007bff; color: white; font-weight: bold; }
+
+.appointment-detail-card { border: 1px solid #ced4da; padding: 10px; margin-bottom: 8px; border-radius: 4px; background-color: #fff; }
+.delete-button { background-color: #dc3545; color: white; border: none; padding: 5px 8px; border-radius: 3px; cursor: pointer; font-size: 0.9em; }
+.delete-button:hover { background-color: #c82333; }
+
+.manage-slot { display: flex; justify-content: space-between; align-items: center; padding: 8px; border-bottom: 1px solid #eee; }
+.manage-slot.past { color: #aaa; }
+.manage-slot.booked { background-color: #ffebeb; }
+.manage-slot.blocked { background-color: #fff3cd; }
+.slot-status { font-size: 0.9em; font-style: italic; color: #555; margin: 0 10px; }
+.manage-slot button { padding: 3px 6px; font-size: 0.8em; cursor: pointer; }
+.block-button { background-color: #ffc107; border: 1px solid #dda600; }
+.unblock-button { background-color: #28a745; color: white; border: 1px solid #1e7e34; }
