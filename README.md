@@ -1,11 +1,23 @@
-BASIC PATIENT BOOKING SYSTEM
+# 🦷 Basic Patient Booking System
 
-Project Discription: This Basic App utilizes MySQL, Spring Boot, React, and Node to create a basic appointment traking software, where patients appointments can be createad, read, edited, and deleted ( depending on the role ). The app will similate a service being given by a dental clinic within Mandaue City, Philippines
+A simple full-stack application for managing dental appointments, built with **MySQL**, **Spring Boot**, **React**, and **Node.js**. The system allows users to **Create, Read, Update, and Delete (CRUD)** patient appointments, with access and permissions varying by user role.
 
-MEMEBERS:
-Robert Bamba
-Shifra Garcia
-Farrah Manalegro
-Hannah A. Hontiveros
-Ken Mandrinan
+This project simulates a dental clinic appointment system set in **Mandaue City, Philippines**.
 
+---
+
+## 📌 Features
+- Role-based appointment management (CRUD)
+- Responsive front-end interface using React
+- Secure REST API powered by Spring Boot
+- MySQL database integration
+- Real-world scenario simulation for a local dental clinic
+
+---
+
+## 👥 Project Members
+- **Robert Bamba**
+- **Shifra Garcia**
+- **Farrah Manalegro**
+- **Hannah A. Hontiveros**
+- **Ken Mandrinan**
