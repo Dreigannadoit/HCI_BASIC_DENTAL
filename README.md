@@ -35,6 +35,9 @@ This project simulates a dental clinic appointment system set in **Mandaue City,
 
 ## 💻 Running the App Locally
 
+### NOTE: THERE IS NO INITIALIZED DATA FOR THE DOCTORS
+YOU HAVE TO REGISTER AS A DOCTOR FIRST BEFORE YOU REGISTER AS A PATIENT (WILL ADD FAKE DATA SOON)
+
 ### 1. 🛠 Backend Setup (Spring Boot)
 > Make sure MySQL is installed and running on your machine.
 
