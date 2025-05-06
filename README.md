@@ -43,7 +43,7 @@ YOU HAVE TO REGISTER AS A DOCTOR FIRST BEFORE YOU REGISTER AS A PATIENT (WILL AD
 
 1. Open the project in **IntelliJ** (or your preferred IDE).
 2. Make sure your `application.properties` (or `application.yml`) file has the correct MySQL configuration.
-3. Locate the `DentalApplication.java` file (usually in `src/main/java/.../DentalApplication.java`).
+3. Locate the `DentalApplication.java` file (usually in `src/main/java/com/dentalHCI/dental/DentalApplication.java`).
 4. Right-click the file and choose `Run 'DentalApplication.main()'` to start the backend API server.
 
 The backend should now be running on `http://localhost:9080`.
